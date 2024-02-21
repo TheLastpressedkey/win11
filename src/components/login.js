@@ -2,13 +2,13 @@ import "firebase/compat/auth";
 import firebase from "firebase/compat/app";
 
 firebase.initializeApp({
-  apiKey: "AIzaSyBdZVIp08RqYKc2s88MfH6B8eiwIeK8mpI",
-  authDomain: "auth.win11react.com",
-  projectId: "win11react",
-  storageBucket: "auth.win11react.com",
-  messagingSenderId: "213452110834",
-  appId: "1:213452110834:web:3a7c957763b93cc29e096b",
-  measurementId: "G-N7CJ22ZMSJ",
+  apiKey: "AIzaSyAI8GQqScb5jzCgn99zQsWoglEW63dQBxo",
+  authDomain: "webos-dcd7a.firebaseapp.com",
+  projectId: "webos-dcd7a",
+  storageBucket: "webos-dcd7a.appspot.com",
+  messagingSenderId: "655691585188",
+  appId: "1:655691585188:web:a31eb5d8dd1a7ddcf93831",
+  measurementId: "G-4M5KR3644G",
 });
 
 const auth = firebase.auth();
