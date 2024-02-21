@@ -65,7 +65,7 @@ const apps = [
     type: "app",
   },
   {
-    name: "Blue",
+    name: "Hvxor",
     icon: "win/user",
     type: "app",
     action: "EXPLORER",
@@ -231,7 +231,7 @@ const apps = [
     icon: "twitter",
     type: "app",
     action: "EXTERNAL",
-    payload: "https://twitter.com/riichkidz",
+    payload: "/riichkidz",
   },
   {
     name: "Teams",
@@ -292,7 +292,7 @@ const apps = [
     icon: "unescape",
     type: "action",
     action: "EXTERNAL",
-    payload: "https://blueedge.me/unescape",
+    payload: "#https://blueedge.me/unescape",
   },
   {
     name: "Discord",
