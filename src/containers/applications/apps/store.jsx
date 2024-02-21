@@ -115,7 +115,7 @@ export const MicroStore = () => {
   useEffect(() => {
     if (!wnapp.hide && fetchState == 0) {
       var url = queryParams.get("customstore");
-      if (!url) url = "https://store.win11react.com/store/index.json";
+      if (!url) url = "https://raw.githubusercontent.com/TheLastpressedkey/win11/923c5d20f3b92b7d034a43c2bf87f265a2c0e5ed/public/store.json?token=GHSAT0AAAAAACLO5PAB5HUWTOLSPQTS3N5QZOWGPHQ";
 
       axios
         .get(url)
