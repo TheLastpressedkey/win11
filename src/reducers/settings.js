@@ -17,9 +17,9 @@ const defState = {
     },
   },
   person: {
-    name: "Blue Edge",
+    name: "F HVXOR",
     theme: "light",
-    color: "blue",
+    color: "red",
   },
   devices: {
     bluetooth: false,
