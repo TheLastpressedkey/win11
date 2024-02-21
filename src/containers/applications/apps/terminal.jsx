@@ -8,8 +8,8 @@ import dirs from "./assets/dir.json";
 
 export const WnTerminal = () => {
   const wnapp = useSelector((state) => state.apps.terminal);
-  const [stack, setStack] = useState(["OS [Version 10.0.22000.51]", ""]);
-  const [pwd, setPwd] = useState("C:\\Users\\Blue");
+  const [stack, setStack] = useState(["WEB OS [Version 0.0.2024.51]", ""]);
+  const [pwd, setPwd] = useState("C:\\Users\\hvxor");
   const [lastCmd, setLsc] = useState(0);
   const [wntitle, setWntitle] = useState("Terminal");
 
@@ -233,20 +233,20 @@ export const WnTerminal = () => {
       i18next.changeLanguage("fr-FR");
       tmpStack.push("French");
     } else if (type == "blue") {
-      tmpStack.push("blueedgetechno");
+      tmpStack.push("hvxordev");
     } else if (type == "dev") {
-      tmpStack.push("https://dev.blueedge.me/");
+      tmpStack.push("https://apps.huguesfrantz.com/");
     } else if (type == "ver") {
       tmpStack.push("OS [Version 10.0.22000.51]");
     } else if (type == "systeminfo") {
       var dvInfo = [
-        "Host Name:                 BLUE",
-        "OS Name:                   Win11React Dummys Edition",
-        "OS Version:                10.0.22000 N/A Build 22000.51",
+        "Host Name:                 HVXOR",
+        "OS Name:                   WEB OS Native Ed",
+        "OS Version:                0.0.2024 N/A Build 22000.51",
         "OS Manufacturer:           ",
         "OS Configuration:          Standalone Workstation",
         "OS Build Type:             Multiprocessor Free",
-        "Registered Owner:          Blue",
+        "Registered Owner:          Hvxor",
         "Registered Organization:   N/A",
         "Product ID:                7H1S1-5AP1R-473DV-3R5I0N",
       ];
@@ -272,6 +272,7 @@ export const WnTerminal = () => {
         "VER            Displays the Windows version.",
         "PYTHON         EXECUTE PYTHON CODE.",
         "EVAL           RUNS JavaScript statements.",
+	"HVXOR          Terminal en cours de dev app/terminal.jsx.",
       ];
 
       for (var i = 0; i < helpArr.length; i++) {
