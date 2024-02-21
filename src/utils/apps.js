@@ -51,7 +51,7 @@ const apps = [
     icon: "buyme",
     type: "app",
     action: "EXTERNAL",
-    payload: "https://www.buymeacoffee.com/blueedgetechno",
+    payload: "instagram.com/riichkidz",
   },
   {
     name: "Store",
@@ -118,7 +118,7 @@ const apps = [
     icon: "help",
     type: "app",
     action: "EXTERNAL",
-    payload: "https://win11react-docs.andrewstech.me/",
+    payload: "https://apps.huguesfrantz.com/",
   },
   {
     name: "Yammer",
@@ -130,7 +130,7 @@ const apps = [
     icon: "mail",
     type: "app",
     action: "EXTERNAL",
-    payload: "mailto:blueedgetechno@gmail.com",
+    payload: "mailto:blondefrantz@gmail.com",
   },
   {
     name: "Movies",
@@ -198,7 +198,7 @@ const apps = [
     icon: "pinterest",
     type: "app",
     action: "EXTERNAL",
-    payload: "https://www.pinterest.com/blueedgetechno/",
+    payload: "https://www.pinterest.com/",
   },
   {
     name: "Security",
@@ -231,7 +231,7 @@ const apps = [
     icon: "twitter",
     type: "app",
     action: "EXTERNAL",
-    payload: "https://twitter.com/blueedgetechno",
+    payload: "https://twitter.com/riichkidz",
   },
   {
     name: "Teams",
@@ -285,7 +285,7 @@ const apps = [
     icon: "github",
     type: "app",
     action: "EXTERNAL",
-    payload: "https://github.com/blueedgetechno/win11React",
+    payload: "https://github.com/TheLastpressedkey",
   },
   {
     name: "Unescape",
