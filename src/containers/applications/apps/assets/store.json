@@ -1,13 +1,13 @@
 [
   {
     "name": "Msvk Bank",
-    "icon": "https://raw.githubusercontent.com/andrewstech/windows11-1/master/public/img/icon/minecraft.png",
+    "icon": "https://play-lh.googleusercontent.com/VDYkVA8nmnEUe95oA55yDgNQ2we1mDkvyhMuT2Arf1VNc9O7r01FbrMJCAf3YXUpww",
     "type": "app",
     "data": {
       "type": "IFrame",
       "url": "https://msvk.vercel.app/",
       "gallery": [
-        "https://msvk.glitch.me/assets/img/favicon.png",
+        "https://play-lh.googleusercontent.com/6JI-xQEDjXtnvpZvMjmyH2QWev7D3q-NJOoTiezd5xPwnuJRq2aEyhJ8NqOad7lSC-E",
         "https://variety.com/wp-content/uploads/2019/02/minecraft-best-year-yet.png?w=600",
         "https://www.minecraft.net/content/dam/games/minecraft/screenshots/RayTracing-MineCraft-PMP-Always-Something-New.jpg"
       ],
@@ -17,7 +17,7 @@
   },
     {
     "name": "Minecraft",
-    "icon": "https://raw.githubusercontent.com/andrewstech/windows11-1/master/public/img/icon/minecraft.png",
+    "icon": "https://cdn.icon-icons.com/icons2/2699/PNG/512/minecraft_logo_icon_168974.png",
     "type": "game",
     "data": {
       "type": "IFrame",
