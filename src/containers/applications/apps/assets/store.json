@@ -1,5 +1,21 @@
 [
   {
+    "name": "Msvk Bank",
+    "icon": "https://raw.githubusercontent.com/andrewstech/windows11-1/master/public/img/icon/minecraft.png",
+    "type": "app",
+    "data": {
+      "type": "IFrame",
+      "url": "https://msvk.vercel.app/",
+      "gallery": [
+        "https://msvk.glitch.me/assets/img/favicon.png",
+        "https://variety.com/wp-content/uploads/2019/02/minecraft-best-year-yet.png?w=600",
+        "https://www.minecraft.net/content/dam/games/minecraft/screenshots/RayTracing-MineCraft-PMP-Always-Something-New.jpg"
+      ],
+      "desc": "MSVK BANK by Morgan Stanley.",
+      "feat": "1.1 Bank Services.\n1.2 Neo Bank Service.\n1.3 Voted updates.\n1.4 Super Fancy graphics.\n1.5 Phasing out of NBT-based crafting recipes.\n1.6 Full split of liquids from blocks.\n1.7 Shaders.\n1.8 Archaeology."
+    }
+  },
+    {
     "name": "Minecraft",
     "icon": "https://raw.githubusercontent.com/andrewstech/windows11-1/master/public/img/icon/minecraft.png",
     "type": "game",
