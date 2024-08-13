@@ -19,6 +19,7 @@ var { taskbar, desktop, pinned, recent } = {
     "Browser",
     "Github",
     "Spotify",
+    "SPACE",
     "Buy me a coffee",
   ],
   pinned: (localStorage.getItem("pinned") &&
