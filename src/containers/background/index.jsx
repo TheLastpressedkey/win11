@@ -71,41 +71,44 @@ export const LockScreen = (props) => {
   const [lock, setLock] = useState(false);
   const [unlocked, setUnLock] = useState(false);
   const [password, setPass] = useState("");
-  const [passType, setType] = useState(1);
+  const [passType, setType] = useState(1); // 1 for password, 0 for PIN (if needed)
   const [forgot, setForget] = useState(false);
   const dispatch = useDispatch();
 
   const userName = useSelector((state) => state.setting.person.name);
 
   const action = (e) => {
-    var act = e.target.dataset.action,
-      payload = e.target.dataset.payload;
+    var act = e.target.dataset.action;
 
-    if (act == "splash") setLock(true);
-    else if (act == "inpass") {
+    if (act === "splash") {
+      setLock(true);
+    } else if (act === "inpass") {
       var val = e.target.value;
-      if (!passType) {
-        val = val.substring(0, 4);
-        val = !Number(val) ? "" : val;
-      }
-
       setPass(val);
-    } else if (act == "forgot") setForget(true);
-    else if (act == "pinlock") setType(0);
-    else if (act == "passkey") setType(1);
-
-    if (act == "pinlock" || act == "passkey") setPass("");
+    } else if (act === "forgot") {
+      setForget(true);
+    } else if (act === "pinlock") {
+      setType(0);
+      setPass("");
+    } else if (act === "passkey") {
+      setType(1);
+      setPass("");
+    }
   };
 
   const proceed = () => {
-    setUnLock(true);
-    setTimeout(() => {
-      dispatch({ type: "WALLUNLOCK" });
-    }, 1000);
+    if (password === "azerty") {
+      setUnLock(true);
+      setTimeout(() => {
+        dispatch({ type: "WALLUNLOCK" });
+      }, 1000);
+    } else {
+      alert("Incorrect password");
+    }
   };
 
   const action2 = (e) => {
-    if (e.key == "Enter") proceed();
+    if (e.key === "Enter") proceed();
   };
 
   return (
@@ -145,27 +148,33 @@ export const LockScreen = (props) => {
         <div className="mt-2 text-2xl font-medium text-gray-200">
           {userName}
         </div>
-        <div className="flex items-center mt-6 signInBtn" onClick={proceed}>
-          Sign in
+        <input
+          type={passType ? "password" : "text"}
+          value={password}
+          onChange={action}
+          data-action="inpass"
+          onKeyDown={action2}
+          placeholder={passType ? "Password" : "PIN"}
+          className="mt-4 p-2 rounded bg-gray-700 text-gray-100"
+        />
+        <Icon
+          className="ml-2 handcr"
+          fafa="faArrowRight"
+          width={14}
+          color="rgba(170, 170, 170, 0.6)"
+          onClick={proceed}
+        />
+        <div
+          className="text-xs text-gray-400 mt-4 handcr"
+          onClick={() => setForget(true)}
+        >
+          {!forgot ? `I forgot my ${passType ? "password" : "pin"}` : "Not my problem"}
         </div>
-        {/*   <input type={passType?"text":"password"} value={password} onChange={action}
-              data-action="inpass" onKeyDown={action2} placeholder={passType?"Password":"PIN"}/>
-          <Icon className="-ml-6 handcr" fafa="faArrowRight" width={14}
-            color="rgba(170, 170, 170, 0.6)" onClick={proceed}/>
-        </div>
-        <div className="text-xs text-gray-400 mt-4 handcr"
-          onClick={proceed}>
-          {!forgot?`I forgot my ${passType?"password":"pin"}`:"Not my problem"}
-        </div>
-        <div className="text-xs text-gray-400 mt-6">
-          Sign-in options
-        </div>
+        <div className="text-xs text-gray-400 mt-6">Sign-in options</div>
         <div className="lockOpt flex">
-          <Icon src="pinlock" onClick={action} ui width={36}
-            click="pinlock" payload={passType==0}/>
-          <Icon src="passkey" onClick={action} ui width={36}
-            click="passkey" payload={passType==1}/>
-        </div> */}
+          <Icon src="pinlock" onClick={action} ui width={36} click="pinlock" />
+          <Icon src="passkey" onClick={action} ui width={36} click="passkey" />
+        </div>
       </div>
       <div className="bottomInfo flex">
         <Icon className="mx-2" src="wifi" ui width={16} invert />
