@@ -37,7 +37,7 @@ export const AboutWin = () => {
           {t("about.licensed")}&nbsp;
           <a
             target="_blank"
-            href="https://github.com/blueedgetechno/win11React/blob/master/LICENSE"
+            href="https://github.com/master/LICENSE"
             rel="noreferrer"
           >
             {t("about.Creative-Commons")}
