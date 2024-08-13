@@ -16,12 +16,12 @@
     }
   },
     {
-    "name": "Minecraft",
-    "icon": "https://cdn.icon-icons.com/icons2/2699/PNG/512/minecraft_logo_icon_168974.png",
-    "type": "game",
+    "name": "SPACE",
+    "icon": "https://storage.googleapis.com/pod_public/1300/150411.jpg",
+    "type": "app",
     "data": {
       "type": "IFrame",
-      "url": "https://classic.minecraft.net",
+      "url": "https://sp4ce.vercel.app/",
       "gallery": [
         "https://www.minecraft.net/content/dam/games/minecraft/key-art/CavesandCliffsPt1-dotNET-HomepagePromo-600x360.png",
         "https://variety.com/wp-content/uploads/2019/02/minecraft-best-year-yet.png?w=600",
