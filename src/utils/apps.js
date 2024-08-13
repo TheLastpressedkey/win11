@@ -254,6 +254,11 @@ const apps = [
     icon: "todo",
     type: "app",
   },
+    {
+    name: "SPACE",
+    icon: "todo",
+    type: "app",
+  },
   {
     name: "Maps",
     icon: "maps",
