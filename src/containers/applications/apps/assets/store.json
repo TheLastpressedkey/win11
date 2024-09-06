@@ -15,7 +15,7 @@
       "feat": "1.1 Bank Services.\n1.2 Neo Bank Service.\n1.3 Voted updates.\n1.4 Super Fancy graphics.\n1.5 Phasing out of NBT-based crafting recipes.\n1.6 Full split of liquids from blocks.\n1.7 Shaders.\n1.8 Archaeology."
     }
   },
-    {
+  {
     "name": "SPACE",
     "icon": "https://storage.googleapis.com/pod_public/1300/150411.jpg",
     "type": "app",
@@ -27,7 +27,7 @@
         "https://variety.com/wp-content/uploads/2019/02/minecraft-best-year-yet.png?w=600",
         "https://www.minecraft.net/content/dam/games/minecraft/screenshots/RayTracing-MineCraft-PMP-Always-Something-New.jpg"
       ],
-      "desc": "Minecraft is a sandbox construction video game developed by Mojang Studios where players interact with a fully modifiable three-dimensional environment made of blocks and entities.\nIts diverse gameplay lets players choose the way they play, allowing for countless possibilities. There are three actively maintained editions of Minecraft: Java Edition, Bedrock Edition, and Education Edition.",
+      "desc": "Minecraft is a sandbox construction video game developed by Mojang Studios where players interact with a fully modifiable three-dimensional environment made of blocks and entities.",
       "feat": "1.1 Combat changes.\n1.2 Fletching table functionality.\n1.3 Voted updates.\n1.4 Super Fancy graphics.\n1.5 Phasing out of NBT-based crafting recipes.\n1.6 Full split of liquids from blocks.\n1.7 Shaders.\n1.8 Archaeology."
     }
   },
@@ -44,11 +44,11 @@
         "https://c.tenor.com/OOAB3Zw9lWsAAAAd/smash-karts-you-win.gif",
         "https://cdn.titotu.io/images/games/smash-karts-631x355.jpg"
       ],
-      "desc": "Smash Karts is a free io Multiplayer Kart Battle Arena game.\nIt is a three-dimensional multiplayer kart racing game. To win, you must drive your go-kart, pick up weaponry, and blow up other karts.",
+      "desc": "Smash Karts is a free io Multiplayer Kart Battle Arena game. Drive your go-kart, pick up weaponry, and blow up other karts.",
       "feat": "Drive fast\nFire rockets\nMake big explosions"
     }
   },
-    {
+  {
     "name": "MSV Kampen BANK",
     "icon": "https://play-lh.googleusercontent.com/VDYkVA8nmnEUe95oA55yDgNQ2we1mDkvyhMuT2Arf1VNc9O7r01FbrMJCAf3YXUpww",
     "type": "app",
@@ -61,8 +61,8 @@
         "https://c.tenor.com/OOAB3Zw9lWsAAAAd/smash-karts-you-win.gif",
         "https://cdn.titotu.io/images/games/smash-karts-631x355.jpg"
       ],
-      "desc": "Smash Karts is a free io Multiplayer Kart Battle Arena game.\nIt is a three-dimensional multiplayer kart racing game. To win, you must drive your go-kart, pick up weaponry, and blow up other karts.",
-      "feat": "Drive fast\nFire rockets\nMake big explosions"
+      "desc": "MSV Kampen Bank, a fictional banking service. Enjoy seamless transactions.",
+      "feat": "1.1 Instant transfers.\n1.2 International banking."
     }
   },
   {
@@ -72,15 +72,14 @@
     "data": {
       "type": "IFrame",
       "url": "https://krunker.io",
-      "invert": true,
       "gallery": [
         "https://cdn.akamai.steamstatic.com/steam/apps/1408720/capsule_616x353.jpg",
         "https://i.redd.it/1oylfyu4giw21.png",
         "https://d326lupd521z61.cloudfront.net/uploads/webp/images/krunker-.io.webp",
         "https://www.mejoress.com/en/wp-content/uploads/Krunker-Aimbot-Hacks.jpg.webp"
       ],
-      "desc": "Krunker.io is a fast-paced pixelated first-person shooter.\nIn this browser game, players drop into a pixelated world and fight against other players from around the world",
-      "feat": "Shooter Video Game\nBrowser game\nCasual game\nFree to Play"
+      "desc": "Krunker.io is a fast-paced pixelated first-person shooter. Play with others and test your shooting skills.",
+      "feat": "Shooter Video Game\nBrowser game\nFree to Play"
     }
   },
   {
@@ -95,8 +94,8 @@
         "https://repository-images.githubusercontent.com/16602433/6d236580-dcad-11e9-8e28-516524888463",
         "https://ourcodeworld.com/public-media/articles/articleocw-5a6788d6906b2.png"
       ],
-      "desc": "JS Paint is a web-based remake of MS Paint by Isaiah Odhner.\nThe goal is to remake MS Paint (including its little-known features), improve on it, and to extend the types of images it can edit. So far, it does this pretty well.",
-      "feat": "Texture painting.\nDrag n drop.\nDigital Painting.\nKid friendly.\nBrowser based.\nWeb-Based."
+      "desc": "JS Paint is a web-based remake of MS Paint, allowing users to create and edit images.",
+      "feat": "Texture painting\nDrag n drop\nKid friendly\nWeb-Based."
     }
   },
   {
@@ -111,7 +110,7 @@
         "https://i.pinimg.com/originals/da/fb/51/dafb514c4185b9349a1ec3de54e2ae33.png",
         "https://upload.wikimedia.org/wikipedia/en/7/77/Spider_Solitaire_7.png"
       ],
-      "desc": "Spider Solitaire is a solitaire card game. As of 2005, it was the most played game on Windows PCs, surpassing the shorter and less challenging Klondike-based Windows Solitaire.",
+      "desc": "Spider Solitaire is a classic card game available in your browser. Enjoy this popular game with a simple interface.",
       "feat": "Play and win"
     }
   },
@@ -128,8 +127,72 @@
         "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2020/05/wikipedia-swastha-1588853853.jpg",
         "https://edtimes.in/wp-content/uploads/2020/08/wikipedia-india-money-min-768x511.jpg"
       ],
-      "desc": "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation",
-      "feat": "free information\nadd information\nedit information"
+      "desc": "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world.",
+      "feat": "Free information\nEdit content\nBrowse topics"
+    }
+  },
+  {
+    "name": "Trello",
+    "icon": "https://cdn.worldvectorlogo.com/logos/trello.svg",
+    "type": "app",
+    "data": {
+      "type": "IFrame",
+      "url": "https://trello.com",
+      "gallery": [
+        "https://blog.trello.com/hubfs/Trello_Intro_01-3.jpg",
+        "https://about.codecov.io/wp-content/uploads/2021/04/Trello-Integration.png",
+        "https://miro.medium.com/max/1080/1*YndPAOVFVYSKTxHYHQnC6w.png"
+      ],
+      "desc": "Trello is a visual tool for organizing tasks and projects into boards.",
+      "feat": "Task management\nCollaboration\nKanban boards"
+    }
+  },
+  {
+    "name": "Canva",
+    "icon": "https://static.canva.com/static/images/favicon.png",
+    "type": "app",
+    "data": {
+      "type": "IFrame",
+      "url": "https://canva.com",
+      "gallery": [
+        "https://static.canva.com/static/images/2x/social-og-design.jpg",
+        "https://www.logodesign.net/images/niche-canva/Canva-Logo-Designs.jpg",
+        "https://media.sproutsocial.com/uploads/Canva-for-social-media-image.png"
+      ],
+      "desc": "Canva is a web-based graphic design tool used for creating social media graphics, presentations, and more.",
+      "feat": "Graphic design\nTemplates\nCollaborative features"
+    }
+  },
+  {
+    "name": "Figma",
+    "icon": "https://www.figma.com/favicon.ico",
+    "type": "app",
+    "data": {
+      "type": "IFrame",
+      "url": "https://www.figma.com",
+      "gallery": [
+        "https://miro.medium.com/max/1838/1*bhMVOqswAQV_9bJXYzc3oA.png",
+        "https://uxdesign.cc/figma-new-features-2022-af606674c5ba.png",
+        "https://i.imgur.com/RDp9nGI.png"
+      ],
+      "desc": "Figma is a collaborative web-based design tool for interface design and prototyping.",
+      "feat": "UI/UX Design\nCollaborative work\nPrototyping"
+    }
+  },
+  {
+    "name": "Slack",
+    "icon": "https://cdn.worldvectorlogo.com/logos/slack-new-logo.svg",
+    "type": "app",
+    "data": {
+      "type": "IFrame",
+      "url": "https://slack.com",
+      "gallery": [
+        "https://slack.com/intl/en-gb/resources/img/slack-product-main.png",
+        "https://miro.medium.com/max/720/1*j_RON03aExJqOENpAeVCaQ.png",
+        "https://about.codecov.io/wp-content/uploads/2021/04/Slack-Integration.png"
+      ],
+      "desc": "Slack is a messaging app for businesses and teams. It allows organized conversations and easy communication.",
+      "feat": "Messaging\nChannels\nIntegrations"
     }
   }
 ]
